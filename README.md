@@ -1,6 +1,6 @@
-# Secure-PHP-File-Router
-
-Secure static file access in PHP — protect CSS, JS, images, fonts, etc. via referer validation, anti-bot filtering, and full access logging. No .htaccess needed.
+> SecurePHPFileRouter est un micro-routeur PHP sécurisé pour protéger vos fichiers statiques (CSS, JS, images, etc.).  
+> Il bloque les bots comme HTTrack/Wget, vérifie les Referer, empêche les accès directs et journalise les tentatives.  
+> Aucun `.htaccess`, aucune dépendance — 100% PHP, prêt à l’emploi.
 
 
 Fonctionnalités

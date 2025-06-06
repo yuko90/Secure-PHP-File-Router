@@ -35,7 +35,7 @@ if (!$fullPath || !file_exists($fullPath) || !str_starts_with($fullPath, realpat
     denyAccess("Fichier interdit ou introuvable : $file");
 }
 
-// 🔒 Protection anti-scraper : vérifie l'agent utilisateur
+// Protection anti-scraper : vérifie l'agent utilisateur
 $userAgent = $_SERVER['HTTP_USER_AGENT'] ?? '';
 $botList = ['httrack', 'wget', 'curl', 'python', 'fetch', 'httpclient', 'libwww'];
 
@@ -46,7 +46,7 @@ foreach ($botList as $bot) {
     }
 }
 
-// 🔒 Vérifie le Referer exact
+// Vérifie le Referer exact
 $referer = $_SERVER['HTTP_REFERER'] ?? '';
 $host = $_SERVER['HTTP_HOST'] ?? '';
 $scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';

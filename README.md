@@ -2,7 +2,7 @@
 > Il bloque les bots comme HTTrack/Wget, vérifie les Referer, empêche les accès directs et journalise les tentatives.  
 > Aucun `.htaccess`, aucune dépendance — 100% PHP, prêt à l’emploi.
 
-[![YouTube Demo](https://img.shields.io/badge/Demo-YouTube-red?logo=youtube)]([https://www.youtube.com/watch?v=TON_CODE](https://youtu.be/UOnUyu8pFmM))
+[![YouTube Demo]([https://img.shields.io/badge/Demo-YouTube-red?logo=youtube](https://youtu.be/UOnUyu8pFmM))]([https://www.youtube.com/watch?v=TON_CODE](https://youtu.be/UOnUyu8pFmM))
 
 
 Fonctionnalités

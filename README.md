@@ -20,14 +20,23 @@ Fonctionnalités
 
 
 /mon-projet/
+
 ├── index.php
+
 ├── secure.php
+
 ├── /source/
+
 │   ├── css/style.css
+
 │   ├── js/app.js
+
 │   ├── img/logo.png
+
 │   └── fonts/font.woff2
+
 └── /logs/
+
     └── access_denied.log
 exemple
 

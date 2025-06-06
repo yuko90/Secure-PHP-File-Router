@@ -5,12 +5,13 @@ Si ce projet vous a aidé, pensez à lui laisser une étoile (⭐) en haut à dr
 > Aucun `.htaccess`, aucune dépendance — 100% PHP, prêt à l’emploi.
 > Vous pouvez également le modifier pour qu’il serve de routeur principal, en renommant secure.php en index.php et en ajoutant une redirection automatique vers, par exemple, index2.php
 
-session_start(); mettre deriere 
+session_start(); mettre derrières
 
 if (empty($_GET['file'])) {
     header("Location: index2.php");
     exit;
 }
+
 Par exemple, le système de détection anti-bot s’active automatiquement.
 
 

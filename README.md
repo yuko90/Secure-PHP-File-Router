@@ -9,25 +9,33 @@ index.php
 exemple : source/css/style.css
 body {
   background-color: #3c546f;
-  color: white;
-  font-family: 'MyFont', sans-serif;
-}
+   color: white;
+   font-family: 'MyFont', sans-serif;
+ }
 
 
 
 secure.php
+
 <?php
+
 session_start();
 
+
 $baseDir = __DIR__ . '/source/';
+
 $logDir  = __DIR__ . '/logs';
+
 $logFile = $logDir . '/access_denied.log';
 
 $file = $_GET['file'] ?? '';
+
 $file = str_replace(['..', '\\'], '', $file);
+
 $ext  = strtolower(pathinfo($file, PATHINFO_EXTENSION));
 
 $mimeTypes = [
+
     'css'   => 'text/css',
     'js'    => 'application/javascript',
     'png'   => 'image/png',
@@ -40,6 +48,7 @@ $mimeTypes = [
     'ttf'   => 'font/ttf',
     'eot'   => 'application/vnd.ms-fontobject',
     'pdf'   => 'application/pdf',
+    
 ];
 
 // Validation extension et nom
@@ -176,7 +185,7 @@ css
 
  Interface d’admin pour lire les logs
 
-📄 Licence
+Licence
 MIT — libre d’usage, de modification et de distribution.
 Un lien vers le dépôt d’origine est apprécié si vous l’utilisez
 

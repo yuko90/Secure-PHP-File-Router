@@ -1,6 +1,6 @@
 # Secure-PHP-File-Router
 
-Protect static files (CSS, JS, images, fonts...) in PHP using a secure file router with referer validation, MIME filtering, and access logging.
+Secure static file access in PHP — protect CSS, JS, images, fonts, etc. via referer validation, anti-bot filtering, and full access logging. No .htaccess needed.
 
 ---
 

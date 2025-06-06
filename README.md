@@ -1,3 +1,5 @@
+Si ce projet vous a aidé, pensez à lui laisser une étoile (⭐) en haut à droite
+
 > SecurePHPFileRouter est un micro-routeur PHP sécurisé pour protéger vos fichiers statiques (CSS, JS, images, etc.).  
 > Il bloque les bots comme HTTrack/Wget, vérifie les Referer, empêche les accès directs et journalise les tentatives.  
 > Aucun `.htaccess`, aucune dépendance — 100% PHP, prêt à l’emploi.
